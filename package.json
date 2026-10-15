@@ -1,0 +1,15 @@
+{
+  "name": "jtl-take-home-frontend",
+  "private": true,
+  "packageManager": "pnpm@10.6.1",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "turbo": "^2.4.4",
+    "typescript": "^5.7.3"
+  }
+}
